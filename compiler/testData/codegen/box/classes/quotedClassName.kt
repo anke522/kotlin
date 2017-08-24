@@ -1,9 +1,9 @@
 // IGNORE_BACKEND: JS
 
-class `A!u00A0`() {
+class `Foo Bar`() {
     val ok = "OK"
 }
 
 fun box(): String {
-    return `A!u00A0`().ok
+    return `Foo Bar`().ok
 }
